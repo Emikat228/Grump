@@ -7,22 +7,22 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('XXXXXX');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 /* BACKGROUND */
 
 body {
-	background: url('XXXXXX') center center fixed;
+	background: url('https://i.ibb.co/bggz0Gtb/Grump-Gif-ezgif-com-resize.gif') center center fixed;
 	background-size: 100%;
-	font-family: 'XXXXXX'!important;
-	color: #XXXXXX
+	font-family: "Caveat", cursive !important;
+	color: #FFFFFF
+        
 }
 
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(XXXXXX);
+	background: linear-gradient(0deg,rgba(5, 20, 26, 0.75) 0%, rgba(5, 20, 26, 0.75) 20%, rgba(10, 40, 48, 0.75) 40%, rgba(80, 67, 93, 0.75) 60%, rgba(144, 75, 107, 0.75) 80%, rgba(204, 107, 142, 0.75) 100%);
 	border: 0 ridge !important;
 	box-shadow: none;
 	border-radius: 10px !important;
@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: #XXXXXX;
+	background: #AB93C9;
 	border: 0 ridge !important;
 	border-top: none;
 	color: #XXXXXX;
@@ -47,9 +47,10 @@ body {
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: #XXXXXX;
+	background: #CA90BD;
 	border-bottom: none;
 	color: #XXXXXX;
+    font-family: "Caveat", cursive !important;
 	border-radius: 10px !important;
 }
 
@@ -65,21 +66,24 @@ body {
 	background: rgba(XXXXXX) !important;
 	border-bottom: none;
 	color: #XXXXXX !important;
+    font-family: "Caveat", cursive !important;
 	border-radius: 10px !important;
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(XXXXXX) !important;
+	background: #E29AAD  !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
+    font-family: "Caveat", cursive !important;
 }
 
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
 	color: #XXXXXX
+    font-family: "Caveat", cursive !important;    
 }
 
 /* CSS CREDIT */
@@ -113,16 +117,17 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: #XXXXXX !important;
+	background: #AB93C9 !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #XXXXXX !important;    
+	color: #XXXXXX !important;
+    font-family: "Caveat", cursive !important;
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: #XXXXXX;
+	background: #AB93C9;
         border: 0 ridge !important;
 	border-radius: 10px !important;
         text-shadow: none !important;
@@ -134,20 +139,21 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: #XXXXXX !important;
+	background: #F4A8A4 !important;
 	border: 0 ridge !important;
 	color: #XXXXXX;
 	border-radius: 10px !important;
+    font-family: "Caveat", cursive !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #C00707;
+	color: #FFFFFF;
     text-shadow: 1px 0px 8px rgba(XXXXXX);
 	font-size: 40px;
 	text-align: center;
-        font-family: 'XXXXXX'!important;
+    font-family: "Caveat", cursive !important;
 }
 
 
@@ -170,61 +176,62 @@ h3 {
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #XXXXXX !important;
+	color: #FFFFFF !important;
         font-size: 26px !important;
-        font-family: 'Knewave'
+        font-family: "Caveat", cursive !important;
 }
+
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(XXXXXX) !important;
+	background: linear-gradient(0deg,rgba(255, 190, 163, 1) 0%, rgba(244, 168, 164, 1) 25%, rgba(226, 154, 173, 1) 50%, rgba(202, 144, 189, 1) 75%, rgba(171, 147, 201, 1) 100%) !important;
 	box-shadow: none !important;
 	border: 0 ridge !important;
-	color: #XXXXXX !important;
+	color: #FFFFFF !important;
 	border-radius: 10px !important;
 }
-
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: #XXXXXX;
+	background: #D13F00;
 	color: #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: #XXXXXX;
-	color: #XXXXXX !important;
+	background: #FF6D2E;
+	color: #471500 !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #XXXXXX !important
+	color: #XXXXXX !important;
+    font-family: "Caveat", cursive !important;
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(XXXXXX) !important;
-        color: #XXXXXX !important;
+	background: #E29AAD !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(XXXXXX) !important;
-        color: #XXXXXX !important;
+	background: #F4A8A4 !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: #XXXXXX !important;
-        color: #XXXXXX !important;
+	background: #CA90BD  !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #XXXXXX !important;
+	color: #FFBEA3 !important;
 }
 
 div#chatMessageContainer {
@@ -233,17 +240,32 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: #XXXXXX !important;
-        color: #XXXXXX !important;
+	background: #AB93C9 !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
+    /* Comment Box Header by Hok-Z#41458 / #170947 */
+#commentBox::before {
+content: "Rawrs Go here!!";
+background: #AB93C9;
+color: white;
+    font-size: 25px;
+display: block;
+width: 96.6%;
+height: 40px;
+position: absolute;
+margin-top: -42px;
+padding-top: 6px;
+border: 0 ridge !important;
+border-radius: 10px !important;
+}
 
 /*-------------------------*/
 /*Comment Box by Hok-Z #41458 / #170947*/
 /*-------------------------*/
 #commentBox {
-background: rgba(XXXXXX);
+background: linear-gradient(0deg,rgba(5, 20, 26, 0.6) 0%, rgba(5, 20, 26, 0.6) 20%, rgba(10, 40, 48, 0.6) 40%, rgba(80, 67, 93, 0.6) 60%, rgba(144, 75, 107, 0.6) 80%, rgba(204, 107, 142, 0.6) 100%);
 border: 2px #XXXXXX !important;
 height: 280px !important;
 margin-top: 40px;
@@ -253,10 +275,11 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: rgba(XXXXXX) !important;
+background: #CA90BD  !important;
 border-bottom: 1px #XXXXXX;
 font-weight: bold;
-color: #XXXXXX;
+color: #40212F;
+    font-family: "Caveat", cursive !important;
 }
 
 .comment a {color: #XXXXXX;}
@@ -264,14 +287,15 @@ color: #XXXXXX;
 .comment .text-muted {color: #XXXXXX;}
 
 #makeComment {
-background: #XXXXXX !important;
+background: #E29AAD !important;
 border: 2px #XXXXXX;
 border-radius: 10px;
 }
 
 #comment {
-background: rgba(XXXXXX) !important;
+background: #F4A8A4  !important;
 color: #XXXXXX !important;
+    font-family: "Caveat", cursive !important;
 }
 
 input[type="button"].bad {
@@ -279,8 +303,9 @@ background: #XXXXXX !important;
 }
 
 input#postComment {
-background: #XXXXXX !important;
+background: #FFBEA3 !important;
 color: black;
+    font-family: "Caveat", cursive !important;
 }
 
 
@@ -290,7 +315,7 @@ color: black;
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(XXXXXX);
+	background: linear-gradient(0deg,rgba(244, 168, 164, 0.6) 0%, rgba(255, 190, 163, 0.6) 100%);
 	border: 0 ridge !important;
 	border-collapse: separate;
 	border-radius: 10px !important;
@@ -302,9 +327,11 @@ color: black;
 .top,
 .bottom,
 th {
-	background: #XXXXXX !important;
+	background: #FFAD8A !important;
 	color: #XXXXXX !important;
+    font-family: "Caveat", cursive !important;
 	border-radius: 10px !important;
+    font-size: 15px
 }
 
 td.bottom a {
@@ -314,8 +341,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: #XXXXXX !important;
-        color: #XXXXXX;
+	background: #F7C2BF !important;
+        color: #40212F;
+    font-family: "Caveat", cursive !important;
 	border-radius: 10px !important;
 }
 
@@ -323,8 +351,9 @@ td.bottom a {
 /* Color behind the number of all of the things above */
 
 .inner-table .right {
-	background: #XXXXXX !important;
+	background: #FFCBB5 !important;
 	border-radius: 10px !important;
+    font-family: "Caveat", cursive !important;
 }
 
 td.right {
@@ -340,9 +369,10 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: #XXXXXX !important;
+	background: #FFBEA3 !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
+    font-family: "Caveat", cursive !important;
 }
 
 /* FEED ALL, PLAY ALL */
@@ -358,15 +388,16 @@ td.right {
 
 .feature,
 div.left {
-	background: #XXXXXX;
+	background: #FFBEA3;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
+    font-family: "Caveat", cursive !important;
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: #XXXXXX;
+	background: #FFBEA3;
         border-radius: 10px !important;
 }
 
@@ -375,12 +406,13 @@ div.left {
 input,
 select,
 textarea {
-	background: #XXXXXX !important;
+	background: #FFBEA3 !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #XXXXXX !important;
+	color: #471500 !important;
 	box-shadow: none !important;
-	text-shadow: none !important
+	text-shadow: none !important;
+    font-family: "Caveat", cursive !important;
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
@@ -410,21 +442,22 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #XXXXXX !important;
-        text-shadow: none !important
+        color: #471500 !important;
+        text-shadow: none !important;
 }
 
 /* LINK COLOR */
 
 a:link,
 a:visited {
-	color: #XXXXXX !important
+	color: #FFCDB8 !important;
+        font-family: "Caveat", cursive !important;
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #XXXXXX !important;
+	color: #471500 !important;
      text-shadow: 1px 0px 8px rgba(XXXXXX);
 }
 
@@ -717,8 +750,9 @@ body > div.container.main > div > div.col-md-9.col-xs-12 > center {
 @media only screen and (min-width: 1200px) {
 		div.quote {
 			width: 790px;
-		}
-	}
+}
+}    
+	
 img[src$="icon-beetle-gold.png"] {
 content: url("XXXXXX") !important;
 width: 20px !important;
