@@ -625,9 +625,9 @@ table#player img {
 
 /* LIODEN LOGO REPLACER */
 
-iv.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.ibb.co/7xc2trXH/Gump9-1.png') !important;
-    margin:-5px;
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.ibb.co/7xc2trXH/Gump9-1.png');
+	margin:-5px;
 	margin-left:-25px;
 }
 
