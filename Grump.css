@@ -149,7 +149,7 @@ button.button, button.button:hover {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #904B6B;
+	color: #05141A;
     text-shadow: 1px 0px 8px rgba(204, 107, 142, 0.7);
 	font-size: 40px;
 	text-align: center;
@@ -659,11 +659,11 @@ div.cave-grid>img[src$="prideoverviewbanner.png"] {
 	content: url('https://i.ibb.co/bZgxgBc/Grumpcave4.gif')!important;
 }
  /* Prized possessions */   
-a[href$="482237"]>div.cave-grid>img {
+a[href$="487937"]>div.cave-grid>img {
 	content: url('https://i.ibb.co/kgXYmx8k/Gump5.gif') !important
 }
 /* project primal */
-a[href$="486032"]>div.cave-grid>img {
+a[href$="490165"]>div.cave-grid>img {
 	content: url('https://i.ibb.co/2Y0mq69w/Grumpcave3.gif') !important
 }
 div.cave-grid>img[src$="caveunused.jpg"] {
