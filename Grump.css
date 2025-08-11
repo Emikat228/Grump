@@ -389,6 +389,7 @@ td.right {
 .feature,
 div.left {
 	background:  #904B6B ;
+	text-shadow: 1px 0px 8px rgba(204, 107, 142, 0.7);
 	border: 0 ridge !important;
 	border-radius: 10px !important;
     font-family: "Caveat", cursive !important;
@@ -450,15 +451,15 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #FFCDB8 !important;
+	color: #50435D !important;
         font-family: "Caveat", cursive !important;
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #471500 !important;
-     text-shadow: 1px 0px 8px rgba(XXXXXX);
+	color: #7F6B94 !important;
+     text-shadow: 1px 0px 8px rgba(237, 161, 171, 0.8);
 }
 
 
